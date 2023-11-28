@@ -9,7 +9,7 @@ Pomocí interpolace řetězců sestavte výslednou adresu a vypište ji do strá
 let jmeno = prompt("Zadej prosím svoje křestní jméno bez diakritiky:");
 let prijmeni = prompt("Zadej prosím svoje příjmení bez diakritiky");
 
-jmeno = jmeno.trim().slice(0,6).toLowerCase();
+jmeno = jmeno.trim().slice(0,5).toLowerCase();
 prijmeni = prijmeni.trim().slice(0,4).toLowerCase();
 
 document.body.innerHTML = `
